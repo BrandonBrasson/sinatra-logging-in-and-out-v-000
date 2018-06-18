@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'ApplicationController' do
+puts describe 'ApplicationController' do
   describe "GET '/'" do
     it "returns a 200 status code" do
       get '/'
