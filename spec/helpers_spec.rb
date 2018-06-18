@@ -12,7 +12,7 @@ puts describe "Helpers" do
 
   end
 
-  puts describe 'Helpers.is_logged_in?' do 
+  puts describe 'Helpers.is_logged_in?' do
     it "returns true or false" do
       @user1 = User.create(:username => "skittles123", :password => "iluvskittles", :balance => 1000)
 
